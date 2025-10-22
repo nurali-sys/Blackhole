@@ -8,7 +8,7 @@
 
 #include <GL/glew.h>
 
-static std::string readFile(const std::string &file) {
+static std::string readFile(const std::string & file) {
   std::string VertexShaderCode;
   std::ifstream ifs(file, std::ios::in);
   if (ifs.is_open()) {
